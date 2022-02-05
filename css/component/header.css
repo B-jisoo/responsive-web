@@ -52,3 +52,49 @@ header .util {
 .r-link-list li {
   margin-right: 10px;
 }
+.main-section-3 {
+  margin-top: 50px;
+}
+.notice-area {
+  display: flex;
+  width: 1440px;
+  height: 124px;
+  border: solid black;
+  border-width: 2px 0px;
+}
+
+.notice-tit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 255px;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.notice-cont {
+  display: flex;
+  align-items: center;
+  width: 1050px;
+}
+
+.notice-cont :first-child {
+  margin: 0px 25px;
+  font-size: 18px;
+}
+
+.notice-cont :last-child {
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+}
+.notice-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notice-pagination a {
+  margin-right: 20px;
+}
