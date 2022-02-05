@@ -60,3 +60,66 @@
   color: #3f0b9f;
   padding-bottom: 23px;
 }
+
+.main-section-2 {
+  margin-top: 40px;
+}
+
+.main-cont-tit {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+}
+
+.main-cont-tit :first-child {
+  font-size: 50px;
+  font-weight: 1000;
+  color: black;
+}
+.controller a {
+  margin-left: 6px;
+}
+
+.main-cont-container {
+  margin-top: 20px;
+  display: flex;
+}
+.main-cont-container-column {
+  width: 315px;
+  margin-right: 60px;
+}
+.date,
+.container-img-info a {
+  display: block;
+}
+
+.container-img-label {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
+  padding: 5px 15px;
+  min-width: 60px;
+  height: 30px;
+  font-size: 16px;
+  margin-bottom: 18px;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+.black {
+  background-color: black;
+  color: white;
+}
+.black-2 {
+  color: black;
+}
+
+.date {
+  opacity: 0.8;
+}
+.container-img-info a {
+  margin-bottom: 15px;
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+}
