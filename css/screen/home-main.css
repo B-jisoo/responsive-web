@@ -123,3 +123,89 @@
   font-weight: 700;
   font-size: 15px;
 }
+
+.main-section-4 {
+  margin-top: 70px;
+  margin-bottom: 80px;
+  display: flex;
+}
+.main-section-4-tit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-section-4-tit h2 {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.edu-content {
+  width: 374px;
+  height: 517px;
+}
+
+.pagination-area :last-child {
+  margin-left: 30px;
+}
+
+.section-4-swiper-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.edu-swipe-img img {
+  width: 374px;
+}
+
+.main-section-4-swiper-txt {
+  margin-top: 30px;
+}
+.main-section-4-swiper-txt div {
+  margin: 20px 0px;
+}
+
+.main-section-4-swiper-txt a {
+  font-size: 24px;
+  color: black;
+  font-weight: 600;
+}
+.main-section-4-swiper-txt :nth-child(2) {
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+.edu-swipe-txt :last-child {
+  display: inline-block;
+  height: 30px;
+  font-weight: 600;
+  color: rgb(119, 42, 192);
+  border-bottom: 1px solid;
+  font-size: 18px;
+}
+
+.event-content {
+  margin-left: 50px;
+  width: 295px;
+  height: 407px;
+}
+.event-swipe-img img {
+  width: 295px;
+}
+
+.online-content {
+  margin-left: 50px;
+  width: 670px;
+  height: 478px;
+}
+.onlie-swipe-img {
+  display: flex;
+  justify-content: center;
+  width: 670px;
+  background-color: #fafafa;
+}
+.onlie-swipe-img img {
+  width: 480px;
+  height: 360px;
+}

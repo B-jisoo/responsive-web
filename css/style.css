@@ -2,6 +2,7 @@
 
 /* Component */
 @import "component/header.css";
+@import "component/footer.css";
 
 /* Screen */
 @import "screen/home-main.css";
