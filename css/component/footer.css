@@ -5,6 +5,10 @@ footer {
 footer li {
   float: none;
 }
+.footer-wrap {
+  margin-bottom: 100px;
+}
+
 .footer-menu {
   padding: 75px 0px 60px 0px;
 }
@@ -43,4 +47,60 @@ footer li {
 
 .last-link {
   margin-left: 60px;
+}
+
+.link-box-area {
+  display: flex;
+  margin-top: 400px;
+  border-top: 1px solid rgba(0, 0, 0, 0.301);
+}
+
+.link-box {
+  margin-top: 55px;
+  width: 25%;
+}
+.link-box-area .link-box:first-child div {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.link-box-area .link-box:nth-child(2) div {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 233px;
+  height: 48px;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 25px;
+  border-bottom: 2px solid black;
+}
+.link-box-area .link-box:nth-child(3) strong {
+  font-weight: bold;
+  color: #000;
+}
+.link-box-area .link-box:nth-child(3) li {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.link-box-area .link-box:last-child ul {
+  display: flex;
+}
+
+.link-box-area .link-box:last-child li {
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+.link-box-area .link-box:last-child img {
+  width: 33px;
+  height: 33px;
+}
+.link-box-area .link-box:last-child div,
+.link-box-area .link-box:last-child span {
+  display: block;
+  height: 60px;
+  font-size: 15px;
+  line-height: 30px;
 }
