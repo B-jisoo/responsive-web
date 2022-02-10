@@ -68,7 +68,6 @@
 .main-cont-tit {
   display: flex;
   justify-content: space-between;
-  width: 1440px;
 }
 
 .main-cont-tit :first-child {

@@ -22,7 +22,7 @@ header .util {
   display: flex;
   align-items: center;
   height: 120px;
-  width: 100%;
+  position: relative;
 }
 
 .logo {
@@ -57,7 +57,6 @@ header .util {
 }
 .notice-area {
   display: flex;
-  width: 1440px;
   height: 124px;
   border: solid black;
   border-width: 2px 0px;
@@ -97,4 +96,12 @@ header .util {
 
 .notice-pagination a {
   margin-right: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+  .r-link-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }
