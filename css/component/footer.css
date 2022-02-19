@@ -1,22 +1,18 @@
 footer {
+  width: 1440px;
+  padding: 0px 15px;
   border-top: 1px solid rgba(0, 0, 0, 0.301);
 }
 
 footer li {
   display: list-item;
   text-align: -webkit-match-parent;
-}
-.footer-wrap {
-  margin-bottom: 100px;
+  white-space: nowrap;
 }
 
 .footer-menu {
   padding: 75px 0px 60px 0px;
   height: 381px;
-}
-
-.foot-1depth {
-  display: flex;
 }
 
 .footer-sub-menu {
@@ -27,37 +23,70 @@ footer li {
   color: black;
   font-size: 20px;
 }
-.footer-sub-menu li {
-  margin-bottom: 15px;
+
+.foot-depth2 {
+  display: block;
 }
-.footer-sub-menu a {
-  font-size: 15px;
-  font-weight: normal;
-  color: #666666;
-  word-break: keep-all;
+.last-link li,
+.footer-sub-menu .foot-depth2 > li {
+  width: 100%;
 }
 
+.footer-menu .foot-1depth > li ul.foot-depth2 > li > a {
+  display: inline-block;
+  width: 90%;
+  height: 20px;
+  margin-bottom: 15px;
+  letter-spacing: -0.25px;
+  color: #666;
+  font-size: 15px;
+}
+.last-link li > a {
+  font-size: 18px;
+}
 .last-link li {
   margin-bottom: 25px;
 }
 
-.foot-1depth li {
-  width: 180px;
-  height: 23px;
+.foot-1depth > li {
+  float: left;
+  width: 12%;
+  word-break: keep-all;
 }
 
-.last-link {
-  margin-left: 20px;
+.foot-1depth > li.intro-link {
+  width: 17%;
 }
+.foot-1depth > li.last-link {
+  float: right;
+  width: 11%;
+}
+
+.footer-menu .foot-1depth:after {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  content: "";
+  height: 0;
+}
+
+/* 링크박스 */
 
 .link-box-area {
-  display: flex;
   border-top: 1px solid rgba(0, 0, 0, 0.301);
+  padding: 55px 0px;
+}
+.link-box-area:after {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  content: "";
+  height: 0;
 }
 
 .link-box {
-  margin-top: 55px;
   width: 25%;
+  float: left;
 }
 .link-box-area .link-box:first-child div {
   color: black;
@@ -79,10 +108,12 @@ footer li {
 .link-box-area .link-box:nth-child(3) strong {
   font-weight: bold;
   color: #000;
+  display: list-item;
 }
 .link-box-area .link-box:nth-child(3) li {
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 16px;
+  width: 90%;
 }
 
 .link-box-area .link-box:last-child ul {
@@ -103,18 +134,4 @@ footer li {
   height: 60px;
   font-size: 15px;
   line-height: 30px;
-}
-
-@media screen and (max-width: 1440px) {
-  .footer-menu {
-    height: 741px;
-  }
-  .foot-1depth {
-    display: flex;
-    height: 741px;
-  }
-  .foot-1depth li {
-    display: inline-block;
-    width: 200px;
-  }
 }

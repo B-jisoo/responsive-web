@@ -1,0 +1,30 @@
+@media screen and (max-width: 1440px) {
+  .r-link-list {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .footer-menu {
+    height: 741px;
+  }
+  .foot-1depth {
+    display: block;
+    height: 741px;
+  }
+  .footer-menu .foot-1depth > li {
+    display: list-item;
+    float: left;
+    width: 25%;
+    min-height: 360px;
+  }
+  .link-box-area .link-box {
+    width: 50%;
+    min-height: 200px;
+  }
+}
+
+/* ******************모바일****************** */
+
+@media screen and (max-width: 767px) {
+}

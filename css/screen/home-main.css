@@ -5,6 +5,13 @@
   display: flex;
 }
 
+.main-section-1,
+.main-section-2,
+.main-section-3,
+.main-section-4 {
+  padding: 0px 15px;
+}
+
 .main-info-area {
   display: flex;
   flex-direction: column;

@@ -97,11 +97,3 @@ header .util {
 .notice-pagination a {
   margin-right: 20px;
 }
-
-@media screen and (max-width: 1440px) {
-  .r-link-list {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-}
